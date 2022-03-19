@@ -1,0 +1,10 @@
+DEBUG:root:debug
+INFO:root:info
+WARNING:root:warning
+ERROR:root:error
+CRITICAL:root:critical
+DEBUG: 2022-03-19 17:57:08,590 debug
+INFO: 2022-03-19 17:57:08,590 info
+WARNING: 2022-03-19 17:57:08,590 warning
+ERROR: 2022-03-19 17:57:08,590 error
+CRITICAL: 2022-03-19 17:57:08,590 critical
