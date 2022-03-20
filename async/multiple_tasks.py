@@ -18,8 +18,12 @@ async def create_tasks():
 
 
 async def task_function(session):
-    url = ""
-    headers = {"Authorization": f"Bearer token"}
+    url = ''
+    headers = {'Authorization': f'Bearer token'}
     async with session.get(url, headers=headers) as response:
-            data = await response.json()
+        data = await response.json()
     return data
+
+
+if __name__ == '__main__':
+    main()
